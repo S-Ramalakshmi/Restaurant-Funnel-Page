@@ -27,10 +27,13 @@ export default function Topbar() {
           </Link>
           </div>
 
-          <button
-            className="hamburger"
-            onClick={() => setMenuOpen(true)}
-          >
+<button
+  className="hamburger"
+  onClick={() => {
+    alert("clicked");
+    setMenuOpen(true);
+  }}
+>
             <HiOutlineMenuAlt3 color='white'/>
           </button>
         </div>
